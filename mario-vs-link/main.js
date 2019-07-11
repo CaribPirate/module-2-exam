@@ -57,15 +57,15 @@ function startBattle() {
 
   if (Math.round(marioAttack) > Math.round(linkAttack)) {
     //mario is stronger
-    message = "The two heroes stared at eachother as if the main theme from \'the Good, the Bad, and the Ugly\' was playing. Then, Mario pulled a " + word1 + " out of his pants. Link was infuriated after what he just saw and aimed his arrows at him. They started " + word2 + " eachother, but Mario dodged every arrow. After Link ran out of arrows, Mario summoned the gods before Link with his " + word1 + ". \"" + word3 + "!\", exclaimed Link, as he took his last breath.";
+    message = "The two heroes stared at eachother as if the main theme from \'The Good, the Bad, and the Ugly\' was playing. Then, Mario pulled a " + word1 + " out of his pants. Link was infuriated after what he just saw and aimed his arrows at him. They started " + word2 + " eachother, but Mario dodged every arrow. After Link ran out of arrows, Mario summoned the gods before Link with his " + word1 + ". \"" + word3 + "!\", exclaimed Link, as he took his last breath.";
 
   } else if (Math.round(marioAttack) < Math.round(linkAttack)) {
     //link is stronger
-    message = "The two heroes stared at eachother as if the main theme from \'the Good, the Bad, and the Ugly\' was playing. Then, Link pulled a " + word1 + " out of his pants. Mario was infuriated after what he just saw and ate the invincibility star from his pocket. They started " + word2 + " eachother, but Link used the " + word1 + " to shutdown all of Mario's attacks. After Mario was beaten, Link summoned the gods before Link with his " + word1 + ". \"" + word3 + "!\", exclaimed Mario, as he took his last breath.";
+    message = "The two heroes stared at eachother as if the main theme from \'The Good, the Bad, and the Ugly\' was playing. Then, Link pulled a " + word1 + " out of his pants. Mario was infuriated after what he just saw and ate the invincibility star from his pocket. They started " + word2 + " eachother, but Link used the " + word1 + " to shutdown all of Mario's attacks. After Mario was beaten, Link summoned the gods before Link with his " + word1 + ". \"" + word3 + "!\", exclaimed Mario, as he took his last breath.";
 
   } else if (Math.round(marioAttack) == Math.round(linkAttack)) {
     //they're the same power
-    message = "The two heroes stared at eachother as if the main theme from \'the Good, the Bad, and the Ugly/' was playing. Then, Mario pulled a " + word1 + " out of his pants. To his surprise, Link also pulled out another " + word1 + ", instead out of his shoe. The two " + word1 + "s flew out of Mario's and Link's hands and collided between the two heroes. The impact caused everything to start " + word2 + " around them. The two hapless heroes simultaneously yelled \"" + word3 + "!\" as the spontaneous storm that appeared before them destroyed eveything they knew, even eachother."
+    message = "The two heroes stared at eachother as if the main theme from \'The Good, the Bad, and the Ugly/' was playing. Then, Mario pulled a " + word1 + " out of his pants. To his surprise, Link also pulled out another " + word1 + ", instead out of his shoe. The two " + word1 + "s flew out of Mario's and Link's hands and collided between the two heroes. The impact caused everything to start " + word2 + " around them. The two hapless heroes simultaneously yelled \"" + word3 + "!\" as the spontaneous storm that appeared before them destroyed eveything they knew, even eachother."
   } else {
     message = "Please calculate the attack values."
   }
