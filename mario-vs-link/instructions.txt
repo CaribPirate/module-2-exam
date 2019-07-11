@@ -1,0 +1,47 @@
+This exam contains 3 sections to complete.
+
+Part 1: Meet the Heroes (30%)
+    Create an external JavaScript file called main.js and link it
+    properly inside index.html
+
+    Add the 'use strict' command at the start of main.js
+
+    When the Mario button is clicked:
+    - Change the image to 'mario.png'
+    - Change the html background to 'red'
+    - Change the body background to 'pink'
+    - 1st bullet should read: Hero of: The Mushroom Kingdom
+    - 2nd bullet should read: Love interest: Princess Peach
+    - 3rd bullet should read: Nemesis: King Bowser
+
+    When the Link button is clicked:
+    - Change the image to 'link.png'
+    - Change the html background to 'green'
+    - Change the body background to 'lightgreen'
+    - 1st bullet should read: Hero of: Hyrule
+    - 2nd bullet should read: Love interest: Princess Zelda
+    - 3rd bullet should read: Nemesis: Ganon
+
+Part 2: Calculating the Hero Attack Values (30%)
+    - When the "calculate attack" button is clicked, read the numbers a user has typed
+      into the input fields, then use these values to calculate each
+      hero's attack value according to these formulae:
+        Mario's attack formula: marioAttack = 2*marioStrength / linkDefense + 5
+        Link's attack formula: linkAttack = (linkStrength + 15) / marioDefense
+    - Use Math.floor() to round each of the attacks to a whole number 
+
+Part 3: The Battle Royale (30%)
+    - When the "start the battle" button is clicked, use the 
+      3 list items in this section, along with Mario 
+      and Link's attack values from the previous section
+      to create a mad-lib style "battle" scene.
+    - This section does not have to be more than a couple of sentences,
+      but you are welcome to get creative and write an epic battle!
+
+Code Clarity (10%)
+    - Code is properly indented
+    - Appropriate function, id, and variable names are use
+    - Comments are used to show IPO structure (input-processing-output)
+
+BONUS:  Add extra functionality or your own creative touch to this assignment and
+        you can earn bonus marks!
